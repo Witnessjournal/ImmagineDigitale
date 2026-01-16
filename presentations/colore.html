@@ -1,0 +1,1459 @@
+<!DOCTYPE html>
+<html lang="it"><head>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-contrib/bootstrap-icons-1.13.1/bootstrap-icons.css" rel="stylesheet"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.26">
+
+  <meta name="author" content="Paolo Bosetti">
+  <title>L’immagine fotografica</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-9436f8cc673f68f5f55fa434ff16588e.css">
+  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">L’immagine fotografica</h1>
+  <p class="subtitle">Introduzione al corso</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Paolo Bosetti 
+</div>
+        <p class="quarto-title-affiliation">
+            Witness Journal
+          </p>
+    </div>
+</div>
+
+  <p class="date">03 novembre 2025</p>
+</section>
+<section id="contenuti" class="title-slide slide level1 center">
+<h1>Contenuti</h1>
+<p>Fondamenti teorici per la <strong>fotografia digitale</strong>:</p>
+<ul>
+<li>La teoria del colore</li>
+<li>L’immagine fotografica digitale</li>
+</ul>
+</section>
+
+<section>
+<section id="la-teoria-del-colore" class="title-slide slide level1 center">
+<h1>La teoria del colore</h1>
+<p>Cos’è il colore? come rappresentarlo?</p>
+</section>
+<section id="perché-parlare-di-teoria-del-colore" class="slide level2">
+<h2>Perché parlare di teoria del colore?</h2>
+<ul>
+<li>La postproduzione <strong>non modifica la luce</strong>, ma la sua <em>rappresentazione numerica</em></li>
+<li>Le immagini digitali vivono in <strong>spazi colore</strong> ben definiti</li>
+<li>Molti problemi pratici (dominanti, colori spenti, clipping) hanno <strong>cause percettive e matematiche</strong></li>
+</ul>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Obiettivo</strong></p>
+</div>
+<div class="callout-content">
+<p>Capire <strong>cosa</strong> stiamo modificando quando spostiamo uno slider</p>
+</div>
+</div>
+</div>
+</section>
+<section id="la-luce" class="slide level2">
+<h2>La luce</h2>
+<div class="columns">
+<div class="column">
+<p>La luce è una radiazione elettromagnetica, descritta da</p>
+<ul>
+<li>intensità, o ampiezza, delle oscillazioni (<em>luminosità</em>)</li>
+<li>frequenza delle oscillazioni (<em>colore</em>)</li>
+<li>polarizzazione, o orientamento, delle oscillazioni (<strong>non percepibile!</strong>)</li>
+</ul>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/wave.png"></p>
+<figcaption>Fascio monocromatico di luce</figcaption>
+</figure>
+</div>
+</div></div>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Importante</strong></p>
+</div>
+<div class="callout-content">
+<p>Note queste tre componenti, un fascio luminoso è perfettamente descritto</p>
+</div>
+</div>
+</div>
+</section>
+<section id="il-colore-una-costruzione-percettiva" class="slide level2">
+<h2>Il colore: una costruzione percettiva</h2>
+<div class="columns">
+<div class="column">
+<p>L’occhio umano <strong>non percepisce la polarizzazione</strong>, ma percepisce colore e intensità</p>
+<p>Il nostro sistema visivo elabora dei segnali fisici costruendo una <strong>rappresentazione</strong></p>
+<p>Questa rappresentazione è soggettiva e può essere ingannevole</p>
+<p>Rappresentare un colore richiede la conoscenza dei meccanismi di percezione umana</p>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="https://upload.wikimedia.org/wikipedia/en/2/21/The_dress_blueblackwhitegold.jpg"></p>
+<figcaption>“The dress”</figcaption>
+</figure>
+</div>
+</div></div>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Nota</strong></p>
+</div>
+<div class="callout-content">
+<p>Nel caso di <a href="https://en.wikipedia.org/wiki/The_dress" height="500px"><em>The dress</em></a> alcuni percepiscono il vestito come blue e nero, altri come bianco e oro</p>
+</div>
+</div>
+</div>
+</section>
+<section id="il-colore-una-costruzione-percettiva-1" class="slide level2">
+<h2>Il colore: una costruzione percettiva</h2>
+<div class="columns">
+<div class="column">
+<p>In questa versione si comprende meglio la possibilità di interpretazione</p>
+<ul>
+<li>Il colore è una <strong>percezione</strong>, cioè una costruzione del nostro cervello</li>
+<li>La percezione è affetta dalla globalità dell’immagine, per cui il colore di un dettaglio è caratterizzato più dal suo contesto che dal dettaglio in sé</li>
+<li>Cos’è il <strong>colore bianco</strong>?</li>
+</ul>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/thedress2.jpg" height="400"></p>
+<figcaption>“The Dress”, v2</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="il-colore-una-costruzione-percettiva-2" class="slide level2">
+<h2>Il colore: una costruzione percettiva</h2>
+<div class="columns">
+<div class="column">
+<ul>
+<li>La luce è raramente monocromatica</li>
+<li>Più spesso è una combinazione, uno <strong>spettro continuo</strong> di lunghezze d’onda</li>
+<li>L’occhio umano <strong>non misura lo spettro</strong>, ma lo <em>percepisce</em> mediante cellule sensibili</li>
+<li>La retina contiene:
+<ul>
+<li>bastoncelli, sensibili all’intensità in luce scarsa</li>
+<li><strong>tre tipi di coni</strong> sensibili all’intensità in luce intensa su tre diverse lunghezze d’onda (<em>S, M, L</em>)</li>
+</ul></li>
+</ul>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Nota</strong></p>
+</div>
+<div class="callout-content">
+<p>A livello <strong>percettivo umano</strong>, ogni colore è descritto da <strong>tre valori</strong>: due sono troppo pochi, tre sono troppi</p>
+</div>
+</div>
+</div>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/photoreceptors.jpg" width="500"></p>
+<figcaption>Fotorecettori (Cleveland Clinic 2024)</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="il-colore-una-costruzione-percettiva-3" class="slide level2">
+<h2>Il colore: una costruzione percettiva</h2>
+<div class="columns">
+<div class="column">
+<ul>
+<li>La maggior parte dei mammiferi ha solo i coni <span class="bgreen">M</span> e <span class="bblue">S</span></li>
+<li>I primati hanno sviluppato i coni <span class="bred">L</span> circa 40 mila anni fa</li>
+<li>L’assenza di coni <span class="bred">L</span> è un carattere recessivo: cecità al colore</li>
+</ul>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Nota</strong></p>
+</div>
+<div class="callout-content">
+<p>Con l’età, modifiche nel cristallino (cateratta) aumentano la sensibilità all’infrarosso: questo spinge a cercare immagini <strong>più sature</strong></p>
+</div>
+</div>
+</div>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/photoreceptors.jpg" width="500"></p>
+<figcaption>Fotorecettori (Cleveland Clinic 2024)</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="perché-bastano-tre-componenti" class="slide level2">
+<h2>Perché bastano tre componenti?</h2>
+<ul>
+<li>Ogni cono fornisce un solo <em>messaggio</em> (quanta luce assorbe)</li>
+<li>Il cervello riceve quindi una <em>terna</em> di informazioni</li>
+<li>Spettri diversi possono produrre la <strong>stessa percezione cromatica</strong> (<em>metameri</em>)</li>
+</ul>
+<p>Quindi mescolare <strong>tre componenti primarie</strong> (es. <span class="bred">R</span><span class="bgreen">G</span><span class="bblue">B</span>) è sufficiente per rappresentare qualsiasi colore percepibile dall’occhio umano:</p>
+<ul>
+<li>Un’immagine RGB non descrive lo spettro</li>
+<li>Descrive <em>come l’immagine stimola l’occhio umano</em></li>
+</ul>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Più di tre coni?</strong></p>
+</div>
+<div class="callout-content">
+<p>Alcune specie animali hanno più di tre coni: la maggior parte degli uccelli ha anche un tipo di cono per UV; i pesci fino a 7, i crostacei fino a 16</p>
+</div>
+</div>
+</div>
+</section>
+<section id="il-colore-come-sottrazione-di-componenti" class="slide level2">
+<h2>Il colore come sottrazione di componenti</h2>
+<div class="columns">
+<div class="column">
+<ul>
+<li>Nella pittura (e nella stampa) i pigmenti <strong>assorbono</strong> componenti dello spettro:
+<ul>
+<li><strong>nessun pigmento = nero</strong></li>
+<li><strong>tutti i pigmenti = bianco</strong></li>
+</ul></li>
+<li>Si usano tre primari (rosso-giallo-blu RBY, oppure ciano-magenta-giallo CYMK)</li>
+<li>I colori secondari sono quelli opposti ai primari</li>
+<li>I colori terziari sono i restanti</li>
+<li>I colori <strong>complementari</strong> sono quelli opposti</li>
+</ul>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/RBY.png" height="500"></p>
+<figcaption>RBY</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="il-colore-come-somma-di-componenti" class="slide level2">
+<h2>Il colore come somma di componenti</h2>
+<div class="columns">
+<div class="column">
+<ul>
+<li>Nei supporti digitali (display) i pixel <strong>emettono</strong> componenti dello spettro:
+<ul>
+<li><strong>nessun pigmento = nero</strong></li>
+<li><strong>tutti i pigmenti = bianco</strong></li>
+</ul></li>
+<li>Si usano tre primari (rosso-verde-blu, RGB)</li>
+<li>I colori secondari sono quelli opposti ai primari</li>
+<li>I colori terziari sono i restanti</li>
+<li>I colori <strong>complementari</strong> sono quelli opposti</li>
+</ul>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/RGB.png" height="500"></p>
+<figcaption>RGB</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="gli-spazi-colore" class="slide level2">
+<h2>Gli spazi-colore</h2>
+<p>OK, servono e bastano tre componenti. Ma come <strong>misuriamo</strong> e <strong>rappresentiamo</strong> le relative intensità?</p>
+<ul>
+<li>Serve un accordo su che valori numerici dare alle componenti del colore (matematica 😱)</li>
+<li>La scelta è puramente arbitraria: per semplicità, si assume che ogni componente possa assumere valori da 0 a 1</li>
+<li>Nel 1931 la <em>Commission Internationale de l’Eclairage</em> (CIE) definì uno spazio 3-D di colore che comprendeva tutte le tinte visibili dall’occhio umano, con coordinate <span class="math inline">\(X, Y, Z\)</span></li>
+<li>Nel cubo di lato 1 in questo spazio ci sono tutte le tinte visibili, dal nero assoluto <span class="math inline">\(&lt;0,0,0&gt;\)</span> al bianco assoluto <span class="math inline">\(&lt;1,1,1&gt;\)</span></li>
+<li>Ma uno spazio 3-D è scomodo da visualizzare: come possiamo semplificare?</li>
+<li>Si <strong>normalizza la luminanza</strong> (cioè la componente di luminosità)</li>
+</ul>
+</section>
+<section id="lo-spazio-colore-cie" class="slide level2">
+<h2>Lo spazio-colore CIE</h2>
+<div class="columns">
+<div class="column">
+<p>Lo spazio colore CIE rappresenta cioè le intensità di tre componenti <em>estreme</em> corrispondenti a:</p>
+<ul>
+<li><span class="math inline">\(X\)</span>: <span class="bred">rosso-viola</span> ipersaturo, con due lunghezze d’onda a 450&nbsp;nm e 600&nbsp;nm</li>
+<li><span class="math inline">\(Y\)</span>: <span class="bgreen">verde</span> ipersaturo, a 520&nbsp;nm</li>
+<li><span class="math inline">\(Z\)</span>: <span class="bblue">blu</span> ipersaturo, a 477&nbsp;nm</li>
+</ul>
+<p>Per rappresentarli su un <strong>piano 2-D</strong> si può usare la sezione del cubo con <strong>intensità complessiva uniforme e uguale a 1</strong></p>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/CIE.png" height="500"></p>
+<figcaption>Spazio colore CIE</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="gli-spazi-colore-come-sottoinsieme-del-cie" class="slide level2">
+<h2>Gli spazi colore come sottoinsieme del CIE</h2>
+<div class="columns">
+<div class="column">
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Importante</strong></p>
+</div>
+<div class="callout-content">
+<p>Non tutto lo spazio CIE è comunque percepibile: sul contorno della sezione si riportano i limiti percettivi con le rispettive lunghezze d’onda</p>
+</div>
+</div>
+</div>
+<ul>
+<li>Diversi dispositivi digitali (sia di cattura che di riproduzione) generalmente <strong>non coprono l’intero spettro visibile</strong>, ma solo un sottoinsieme</li>
+<li>Esistono <strong>spazi-colore</strong> standard adatti a diversi dispositivi</li>
+<li>Ad es. lo spazio <strong>sRGB</strong> è stato il riferimento per i display fino all’avvento di display ad alta dinamica nel decennio attuale</li>
+</ul>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/CIE1931.png" height="500"></p>
+<figcaption>CIE-1931 e altri spazi-colore</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="gli-spazi-colore-come-sottoinsieme-del-cie-1" class="slide level2">
+<h2>Gli spazi colore come sottoinsieme del CIE</h2>
+<div class="columns">
+<div class="column smaller">
+<ul>
+<li>Il punto marcato <em>D65</em> è detto <strong>illuminante CIE</strong> e corrisponde al bianco percepito dalla radiazione riflessa da una superficie bianca illuminata da luce diurna media</li>
+<li>Il contorno a campana riporta i <strong>colori spettrali</strong> (dall’indaco al rosso)</li>
+<li>Il segmento in basso riporta i <strong>colori non-spettrali</strong> (<em>porpore</em>)</li>
+<li>Tutti i colori sul piano CIE hanno la stessa <strong>luminanza</strong>, mentre la saturazione cresce da D65 verso il bordo</li>
+<li>Quindi posso rappresentare lo stesso spazio colore anche come <em>hue</em>, <em>saturation</em>, <em>luminance</em> (<strong>HSL</strong>), cioè <em>tinta</em>, <em>saturazione</em> e <em>luminanza</em></li>
+</ul>
+<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Avviso</strong></p>
+</div>
+<div class="callout-content">
+<p>Convertire tra spazi colore può comportare modifica percettiva sostanziale di una immagine!</p>
+</div>
+</div>
+</div>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/CIE1931.png" height="500"></p>
+<figcaption>CIE-1931 e altri spazi-colore</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="leffetto-degli-spazi-colore" class="slide level2">
+<h2>L’effetto degli spazi colore</h2>
+<ul>
+<li>Lo spazio colore adottato è <strong>scritto nei metadati di una immagine</strong></li>
+<li>Il sistema di visualizzazione (display o stampa) può gestire lo spazio colore (<em>color-management</em>) oppure no</li>
+<li><em>Color management</em> significa che il dispositivo <strong>trasforma</strong> i colori estendendoli o comprimendoli allo spazio-colore di destinazione (<strong>gamut</strong>)</li>
+<li>A seconda del profilo colore adottato da sorgente e destinazione e del fatto che il dispositivo di uscita supporti il <em>color management</em> possono aversi diverse situazioni</li>
+</ul>
+</section>
+<section id="senza-color-management" class="slide level2">
+<h2>Senza <em>color-management</em></h2>
+<p>Questo avviene soprattutto su dispositivi e software che gestiscono solo sRGB, come browser antiquati o semplificati per dispositivi minimali</p>
+<div class="columns">
+<div class="column">
+<h3 id="adobe-rgb-srgb">Adobe RGB <i class="bi-arrow-right " style="" role="img" aria-hidden="true"></i> sRGB</h3>
+<ul>
+<li>Si ha una compressione dello spazio colore</li>
+<li>L’immagine risulta piatta</li>
+<li>In particolare, i verdi e (un po’ meno) i rossi sono spenti</li>
+<li>Si guadagna una dominante magenta</li>
+</ul>
+</div><div class="column">
+<h3 id="srgb-adobe-rgb-o-p3">sRGB <i class="bi-arrow-right " style="" role="img" aria-hidden="true"></i> Adobe RGB (o P3)</h3>
+<ul>
+<li>Si ottiene una immagine con colori generalmente troppo saturi</li>
+<li>Si nota soprattutto nei verdi, che diventano <span class="bgreen">radioattivi</span></li>
+<li>Si guadagna una dominante verde</li>
+<li>Le variazioni di colore sono meno dolci</li>
+</ul>
+</div></div>
+</section>
+<section id="con-color-management" class="slide level2">
+<h2>Con <em>color-management</em></h2>
+<p>Il software/dispositivo legge il profilo colore nell’immagine e riproietta i colori nello spazio più piccolo (gamut ridotto)</p>
+<div class="columns">
+<div class="column">
+<h3 id="adobe-rgb-srgb-1">Adobe RGB <i class="bi-arrow-right " style="" role="img" aria-hidden="true"></i> sRGB</h3>
+<ul>
+<li>I colori sono corretti</li>
+<li>Si perde però in vivacità percettiva (perché il dispositivo non è in gradi di visualizzare i colori più saturi)</li>
+<li>La differenza si percepisce maggiormente nei verdi</li>
+</ul>
+</div><div class="column">
+<h3 id="srgb-adobe-rgb-o-p3-1">sRGB <i class="bi-arrow-right " style="" role="img" aria-hidden="true"></i> Adobe RGB (o P3)</h3>
+<ul>
+<li>I colori sono percettivamente identici a quelli visualizzati su un display Adobe RGB</li>
+<li>Tutavia non si sfrutta la capacità di stimolo visivo del display</li>
+</ul>
+</div></div>
+</section>
+<section id="in-conclusione" class="slide level2">
+<h2>In conclusione</h2>
+<ul>
+<li>Oggi la maggior parte dei dispositivi è in grado di gestire il colore</li>
+<li>Conviene <strong>impostare la camera</strong> in modo da creare file in formato Adobe RGB</li>
+<li>In questo modo si possono sfruttare al meglio dispositivi e software moderni</li>
+<li>In Lightroom, in modalità Sviluppo abilitare <em>Prova Colore</em> e poi scegliere il profilo/spazio di destinazione (in alto a destra, sotto l’istogramma)</li>
+<li>La simulazione funziona bene se si usa un display con gamut ampio (P3 o Adobe RGB) e si vuole verificare un gamut più ridotto (ad esempio per la stampa)</li>
+</ul>
+</section>
+<section id="impostare-il-profilo-colore-in-camera" class="slide level2">
+<h2>Impostare il profilo colore in camera</h2>
+<p>La maggior parte delle camere consente di scegliere lo spazio colore (sRGB o Adobe RGB):</p>
+<ul>
+<li>Se si scatta in JPG, la scelta cambia la qualità dell’immagine a seconda del dispositivo di destinazione (vedi sopra)</li>
+<li>Se si scatta in RAW, il <em>contenuto</em> dell’immagine non cambia, tuttavia:
+<ul>
+<li>il profilo viene salvato nei metadati e usato dal software di sviluppo</li>
+<li>il profilo viene utilizzato per la generazione dell’anteprima JPG</li>
+<li>il profilo viene utilizzato per la <strong>visualizzazione dell’istogramma</strong></li>
+</ul></li>
+<li>Quindi, scegliere Adobe RGB in generale dà meno <em>clipping</em> delle saturazioni, ed è più utile per anticipare cosa è possibile ottenere dal RAW</li>
+</ul>
+</section></section>
+<section>
+<section id="limmagine-digitale" class="title-slide slide level1 center">
+<h1>L’immagine digitale</h1>
+<p>Come si costruisce un’immagine fotografica digitale?</p>
+</section>
+<section id="comè-fatto-un-sensore-cmos" class="slide level2">
+<h2>Com’è fatto un sensore (CMOS)</h2>
+<div class="columns">
+<div class="column">
+<p>Fotositi</p>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/fotosite.png" width="400"></p>
+<figcaption>Fotosito CMOS</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="comè-fatto-un-sensore-cmos-1" class="slide level2">
+<h2>Com’è fatto un sensore (CMOS)</h2>
+<div class="columns">
+<div class="column">
+<p>Color Filter Array</p>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/cfa.png" width="400"></p>
+<figcaption>CFA</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="color-filter-array-cfa" class="slide level2">
+<h2><em>Color Filter Array</em> (CFA)</h2>
+<div class="columns">
+<div class="column">
+<p>Bayer o X-Trans</p>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/bayer-vs-xtrans.png"></p>
+<figcaption>CFA Bayer (sx) e X-Trans (dx)</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="interpolazione-o-sviluppo-raw" class="slide level2">
+<h2>Interpolazione, o “sviluppo RAW”</h2>
+<div class="columns">
+<div class="column">
+<p>left</p>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/xtrans-3.png" class="quarto-figure quarto-figure-center" width="400"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="profindità-di-colore-bit" class="slide level2">
+<h2>Profindità di colore (bit)</h2>
+</section>
+<section id="gamma-dinamica" class="slide level2">
+<h2>Gamma dinamica</h2>
+</section>
+<section id="iso-e-sensibilità" class="slide level2">
+<h2>ISO e sensibilità</h2>
+</section>
+<section id="formati-raw" class="slide level2">
+<h2>Formati RAW</h2>
+</section>
+<section id="formati-di-output-jpg" class="slide level2">
+<h2>Formati di output: JPG</h2>
+</section>
+<section id="formati-di-output-png" class="slide level2">
+<h2>Formati di output: PNG</h2>
+</section>
+<section id="formati-di-output-tiff" class="slide level2">
+<h2>Formati di output: TIFF</h2>
+</section>
+<section id="bilanciamento-del-bianco-idea-chiave" class="slide level2">
+<h2>Bilanciamento del bianco: idea chiave</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Il cervello umano compensa automaticamente la temperatura della luce</li>
+<li>Il sensore <strong>non lo fa</strong></li>
+<li>Il bilanciamento del bianco è una <strong>correzione moltiplicativa dei canali</strong></li>
+</ul>
+<p>➡️ Serve a ristabilire una risposta <em>neutra</em> ai grigi</p>
+</div><div class="column" style="width:50%;">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="colore_files/figure-revealjs/unnamed-chunk-1-1.png" width="1500"></p>
+</figure>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section id="bilanciamento-del-bianco-punto-critico" class="slide level2">
+<h2>Bilanciamento del bianco: punto critico</h2>
+<ul>
+<li>Il WB <strong>non è una correzione estetica</strong>, ma percettiva</li>
+<li>Va fatto <strong>prima</strong> di contrasto e saturazione</li>
+<li>Un WB errato distorce:
+<ul>
+<li>istogrammi RGB</li>
+<li>separazione cromatica</li>
+<li>conversioni di spazio colore</li>
+</ul></li>
+</ul>
+</section>
+<section id="profili-icc-perché-sono-necessari" class="slide level2">
+<h2>Profili ICC: perché sono necessari</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>I numeri RGB <strong>non hanno significato assoluto</strong></li>
+<li>Un profilo ICC dice:
+<ul>
+<li>che colore <em>reale</em> corrisponde a quei numeri</li>
+<li>come convertire correttamente tra dispositivi</li>
+</ul></li>
+</ul>
+<p>📌 Senza profilo ICC → i colori sono ambigui</p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 3 × 2
+  channel mean_value
+  &lt;chr&gt;        &lt;dbl&gt;
+1 B            0.494
+2 G            0.527
+3 R            0.506</code></pre>
+</div>
+</div>
+<p>➡️ Stessi numeri RGB, profili diversi → <strong>colori diversi</strong></p>
+</div><div class="column" style="width:50%;">
+<p>{width=100%}</p>
+<p><em>Pipeline colore semplificata con profili ICC</em></p>
+</div></div>
+<ul>
+<li>I numeri RGB <strong>non hanno significato assoluto</strong></li>
+<li>Un profilo ICC dice:
+<ul>
+<li>che colore <em>reale</em> corrisponde a quei numeri</li>
+<li>come convertire correttamente tra dispositivi</li>
+</ul></li>
+</ul>
+<p>📌 Senza profilo ICC → i colori sono ambigui</p>
+</section>
+<section id="catena-del-colore-semplificata" class="slide level2">
+<h2>Catena del colore (semplificata)</h2>
+<ol type="1">
+<li>Sensore (risposta spettrale propria)</li>
+<li>Profilo camera</li>
+<li>Spazio di lavoro (es. ProPhoto)</li>
+<li>Editing</li>
+<li>Conversione verso output (monitor / stampa)</li>
+</ol>
+<p>➡️ Ogni passaggio è una <strong>trasformazione di coordinate</strong></p>
+</section>
+<section id="cosè-il-gamut" class="slide level2">
+<h2>Cos’è il gamut</h2>
+<ul>
+<li>Il gamut è l’insieme dei colori <strong>rappresentabili</strong></li>
+<li>Dipende dal dispositivo o dallo spazio colore</li>
+<li>Non tutti i colori percepibili sono rappresentabili</li>
+</ul>
+<p>Esempio:</p>
+<ul>
+<li>sRGB ⊂ AdobeRGB ⊂ ProPhotoRGB</li>
+</ul>
+</section>
+<section id="gamut-e-postproduzione" class="slide level2">
+<h2>Gamut e postproduzione</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Aumentare saturazione ≠ aumentare gamut</li>
+<li>I colori fuori gamut vengono:
+<ul>
+<li>compressi</li>
+<li>tagliati (clipping)</li>
+</ul></li>
+</ul>
+<p>📌 Problema tipico: colori vividi a monitor → spenti in stampa</p>
+</div><div class="column" style="width:50%;">
+<p>{width=100%}</p>
+<p><em>Confronto concettuale tra gamut (sRGB vs AdobeRGB)</em></p>
+</div></div>
+<ul>
+<li>Aumentare saturazione ≠ aumentare gamut</li>
+<li>I colori fuori gamut vengono:
+<ul>
+<li>compressi</li>
+<li>tagliati (clipping)</li>
+<li>deformati</li>
+</ul></li>
+</ul>
+<p>📌 Problema tipico: colori vividi a monitor → spenti in stampa</p>
+</section>
+<section id="visualizzare-il-gamut-idea" class="slide level2">
+<h2>Visualizzare il gamut (idea)</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Lightroom lavora sempre in uno <strong>spazio interno molto ampio</strong> (simile a ProPhoto)</li>
+<li>Il problema del gamut emerge:
+<ul>
+<li>in <strong>soft proofing</strong></li>
+<li>in <strong>export</strong></li>
+</ul></li>
+<li>Il diagramma CIE xy serve a <em>capire</em>, non a lavorare</li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="colore_files/figure-revealjs/unnamed-chunk-4-1.png" width="1500"></p>
+</figure>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
+<blockquote>
+<p>In Lightroom non <em>vediamo</em> il gamut, ma ne subiamo gli effetti in output</p>
+</blockquote>
+<ul>
+<li>Avvisi di gamut in soft proof</li>
+<li>Colori saturi che collassano</li>
+<li>Perdita di separazione cromatica</li>
+</ul>
+</div></div>
+<ul>
+<li>Il diagramma CIE xy mostra:
+<ul>
+<li>colori percepibili</li>
+<li>contorni dei gamut</li>
+</ul></li>
+<li>Utile concettualmente, <strong>non operativo</strong></li>
+</ul>
+<blockquote>
+<p>In pratica lavoriamo sempre in RGB</p>
+</blockquote>
+</section>
+<section id="lightroom-perché-uno-spazio-interno-ampio" class="slide level2">
+<h2>Lightroom: perché uno spazio interno ampio</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Lightroom usa un <strong>RGB molto esteso</strong> (simile a ProPhoto)</li>
+<li>Serve a:
+<ul>
+<li>evitare clipping durante editing</li>
+<li>preservare saturazioni elevate</li>
+</ul></li>
+<li>L’utente <strong>non sceglie</strong> questo spazio</li>
+</ul>
+<p>📌 Il problema nasce <strong>solo in export</strong></p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="colore_files/figure-revealjs/unnamed-chunk-5-1.png" width="1500"></p>
+</figure>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>In Develop: tutto sembra “ok”</li>
+<li>In Export sRGB:
+<ul>
+<li>compressione</li>
+<li>clipping</li>
+</ul></li>
+</ul>
+<blockquote>
+<p>Lightroom protegge l’editing, non l’output finale</p>
+</blockquote>
+</div></div>
+<ul>
+<li>Gamut molto ampio</li>
+<li>Riduce il rischio di clipping in editing</li>
+<li><strong>Richiede profondità elevata</strong> (16 bit)</li>
+</ul>
+<p>⚠️ Con 8 bit → posterizzazione</p>
+</section>
+<section id="messaggi-chiave-da-portare-a-casa" class="slide level2">
+<h2>Messaggi chiave da portare a casa</h2>
+<ul>
+<li>Il colore è una <em>costruzione percettiva</em></li>
+<li>RGB funziona perché l’occhio è tricromatico</li>
+<li>WB e profili ICC sono <strong>fondamentali</strong>, non opzionali</li>
+<li>Il gamut è un vincolo fisico, non un’opinione</li>
+</ul>
+</section>
+<section id="esercitazione-guidata-lightroom-centric" class="slide level2">
+<h2>Esercitazione guidata (Lightroom-centric)</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Stesso file RAW</strong></p>
+<ol type="1">
+<li>WB automatico</li>
+<li>WB manuale (pipetta su grigio)</li>
+<li>Saturazione + Vibrance</li>
+</ol>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="colore_files/figure-revealjs/unnamed-chunk-6-1.png" width="1500"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Domanda chiave</strong>:</p>
+<blockquote>
+<p>cosa è cambiato nei numeri, non nell’immagine?</p>
+</blockquote>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>WB → riallinea i canali</li>
+<li>Saturazione → aumenta separazione</li>
+<li>Export → applica i vincoli del gamut</li>
+</ul>
+<p>📌 Lightroom è <em>non distruttivo</em>, ma <strong>non è neutro</strong></p>
+</div></div>
+<ul>
+<li>Stessa immagine RAW</li>
+<li>WB diverso</li>
+<li>Spazio colore diverso</li>
+<li>Analisi istogrammi RGB</li>
+</ul>
+<p>➡️ Osservare cosa cambia <em>numericamente</em>, non solo visivamente</p>
+
+
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="https://witnessjournal.com/wp-content/uploads/2018/11/Home-1.png" class="slide-logo"></p>
+<div class="footer footer-default">
+<p>MADS — <a href="..">https://witnessjournal.github.io/ImmagineDigitale</a></p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': true,
+'pdfSeparateFragments': true,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1280,
+
+        height: 720,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copiato!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copiato!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp("https:\/\/witnessjournal\.github\.io\/ImmagineDigitale");
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+                // default icon
+                link.classList.add("external");
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+            let selectedAnnoteEl;
+            const selectorForAnnotation = ( cell, annotation) => {
+              let cellAttr = 'data-code-cell="' + cell + '"';
+              let lineAttr = 'data-code-annotation="' +  annotation + '"';
+              const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+              return selector;
+            }
+            const selectCodeLines = (annoteEl) => {
+              const doc = window.document;
+              const targetCell = annoteEl.getAttribute("data-target-cell");
+              const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+              const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+              const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+              const lineIds = lines.map((line) => {
+                return targetCell + "-" + line;
+              })
+              let top = null;
+              let height = null;
+              let parent = null;
+              if (lineIds.length > 0) {
+                  //compute the position of the single el (top and bottom and make a div)
+                  const el = window.document.getElementById(lineIds[0]);
+                  top = el.offsetTop;
+                  height = el.offsetHeight;
+                  parent = el.parentElement.parentElement;
+                if (lineIds.length > 1) {
+                  const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+                  const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+                  height = bottom - top;
+                }
+                if (top !== null && height !== null && parent !== null) {
+                  // cook up a div (if necessary) and position it 
+                  let div = window.document.getElementById("code-annotation-line-highlight");
+                  if (div === null) {
+                    div = window.document.createElement("div");
+                    div.setAttribute("id", "code-annotation-line-highlight");
+                    div.style.position = 'absolute';
+                    parent.appendChild(div);
+                  }
+                  div.style.top = top - 2 + "px";
+                  div.style.height = height + 4 + "px";
+                  div.style.left = 0;
+                  let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+                  if (gutterDiv === null) {
+                    gutterDiv = window.document.createElement("div");
+                    gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                    gutterDiv.style.position = 'absolute';
+                    const codeCell = window.document.getElementById(targetCell);
+                    const gutter = codeCell.querySelector('.code-annotation-gutter');
+                    gutter.appendChild(gutterDiv);
+                  }
+                  gutterDiv.style.top = top - 2 + "px";
+                  gutterDiv.style.height = height + 4 + "px";
+                }
+                selectedAnnoteEl = annoteEl;
+              }
+            };
+            const unselectCodeLines = () => {
+              const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+              elementsIds.forEach((elId) => {
+                const div = window.document.getElementById(elId);
+                if (div) {
+                  div.remove();
+                }
+              });
+              selectedAnnoteEl = undefined;
+            };
+              // Handle positioning of the toggle
+          window.addEventListener(
+            "resize",
+            throttle(() => {
+              elRect = undefined;
+              if (selectedAnnoteEl) {
+                selectCodeLines(selectedAnnoteEl);
+              }
+            }, 10)
+          );
+          function throttle(fn, ms) {
+          let throttle = false;
+          let timer;
+            return (...args) => {
+              if(!throttle) { // first call gets through
+                  fn.apply(this, args);
+                  throttle = true;
+              } else { // all the others get throttled
+                  if(timer) clearTimeout(timer); // cancel #2
+                  timer = setTimeout(() => {
+                    fn.apply(this, args);
+                    timer = throttle = false;
+                  }, ms);
+              }
+            };
+          }
+            // Attach click handler to the DT
+            const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+            for (const annoteDlNode of annoteDls) {
+              annoteDlNode.addEventListener('click', (event) => {
+                const clickedEl = event.target;
+                if (clickedEl !== selectedAnnoteEl) {
+                  unselectCodeLines();
+                  const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+                  if (activeEl) {
+                    activeEl.classList.remove('code-annotation-active');
+                  }
+                  selectCodeLines(clickedEl);
+                  clickedEl.classList.add('code-annotation-active');
+                } else {
+                  // Unselect the line
+                  unselectCodeLines();
+                  clickedEl.classList.remove('code-annotation-active');
+                }
+              });
+            }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

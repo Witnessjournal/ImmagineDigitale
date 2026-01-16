@@ -1,0 +1,289 @@
+[
+  {
+    "objectID": "presentations/colore.html#perché-parlare-di-teoria-del-colore",
+    "href": "presentations/colore.html#perché-parlare-di-teoria-del-colore",
+    "title": "L’immagine fotografica",
+    "section": "Perché parlare di teoria del colore?",
+    "text": "Perché parlare di teoria del colore?\n\nLa postproduzione non modifica la luce, ma la sua rappresentazione numerica\nLe immagini digitali vivono in spazi colore ben definiti\nMolti problemi pratici (dominanti, colori spenti, clipping) hanno cause percettive e matematiche\n\n\n\n\n\n\n\nObiettivo\n\n\nCapire cosa stiamo modificando quando spostiamo uno slider"
+  },
+  {
+    "objectID": "presentations/colore.html#la-luce",
+    "href": "presentations/colore.html#la-luce",
+    "title": "L’immagine fotografica",
+    "section": "La luce",
+    "text": "La luce\n\n\nLa luce è una radiazione elettromagnetica, descritta da\n\nintensità, o ampiezza, delle oscillazioni (luminosità)\nfrequenza delle oscillazioni (colore)\npolarizzazione, o orientamento, delle oscillazioni (non percepibile!)\n\n\n\n\n\nFascio monocromatico di luce\n\n\n\n\n\n\n\n\n\nImportante\n\n\nNote queste tre componenti, un fascio luminoso è perfettamente descritto"
+  },
+  {
+    "objectID": "presentations/colore.html#il-colore-una-costruzione-percettiva",
+    "href": "presentations/colore.html#il-colore-una-costruzione-percettiva",
+    "title": "L’immagine fotografica",
+    "section": "Il colore: una costruzione percettiva",
+    "text": "Il colore: una costruzione percettiva\n\n\nL’occhio umano non percepisce la polarizzazione, ma percepisce colore e intensità\nIl nostro sistema visivo elabora dei segnali fisici costruendo una rappresentazione\nQuesta rappresentazione è soggettiva e può essere ingannevole\nRappresentare un colore richiede la conoscenza dei meccanismi di percezione umana\n\n\n\n\n“The dress”\n\n\n\n\n\n\n\n\n\nNota\n\n\nNel caso di The dress alcuni percepiscono il vestito come blue e nero, altri come bianco e oro"
+  },
+  {
+    "objectID": "presentations/colore.html#il-colore-una-costruzione-percettiva-1",
+    "href": "presentations/colore.html#il-colore-una-costruzione-percettiva-1",
+    "title": "L’immagine fotografica",
+    "section": "Il colore: una costruzione percettiva",
+    "text": "Il colore: una costruzione percettiva\n\n\nIn questa versione si comprende meglio la possibilità di interpretazione\n\nIl colore è una percezione, cioè una costruzione del nostro cervello\nLa percezione è affetta dalla globalità dell’immagine, per cui il colore di un dettaglio è caratterizzato più dal suo contesto che dal dettaglio in sé\nCos’è il colore bianco?\n\n\n\n\n\n“The Dress”, v2"
+  },
+  {
+    "objectID": "presentations/colore.html#il-colore-una-costruzione-percettiva-2",
+    "href": "presentations/colore.html#il-colore-una-costruzione-percettiva-2",
+    "title": "L’immagine fotografica",
+    "section": "Il colore: una costruzione percettiva",
+    "text": "Il colore: una costruzione percettiva\n\n\n\nLa luce è raramente monocromatica\nPiù spesso è una combinazione, uno spettro continuo di lunghezze d’onda\nL’occhio umano non misura lo spettro, ma lo percepisce mediante cellule sensibili\nLa retina contiene:\n\nbastoncelli, sensibili all’intensità in luce scarsa\ntre tipi di coni sensibili all’intensità in luce intensa su tre diverse lunghezze d’onda (S, M, L)\n\n\n\n\n\n\n\n\nNota\n\n\nA livello percettivo umano, ogni colore è descritto da tre valori: due sono troppo pochi, tre sono troppi\n\n\n\n\n\n\n\nFotorecettori (Cleveland Clinic 2024)"
+  },
+  {
+    "objectID": "presentations/colore.html#il-colore-una-costruzione-percettiva-3",
+    "href": "presentations/colore.html#il-colore-una-costruzione-percettiva-3",
+    "title": "L’immagine fotografica",
+    "section": "Il colore: una costruzione percettiva",
+    "text": "Il colore: una costruzione percettiva\n\n\n\nLa maggior parte dei mammiferi ha solo i coni M e S\nI primati hanno sviluppato i coni L circa 40 mila anni fa\nL’assenza di coni L è un carattere recessivo: cecità al colore\n\n\n\n\n\n\n\nNota\n\n\nCon l’età, modifiche nel cristallino (cateratta) aumentano la sensibilità all’infrarosso: questo spinge a cercare immagini più sature\n\n\n\n\n\n\n\nFotorecettori (Cleveland Clinic 2024)"
+  },
+  {
+    "objectID": "presentations/colore.html#perché-bastano-tre-componenti",
+    "href": "presentations/colore.html#perché-bastano-tre-componenti",
+    "title": "L’immagine fotografica",
+    "section": "Perché bastano tre componenti?",
+    "text": "Perché bastano tre componenti?\n\nOgni cono fornisce un solo messaggio (quanta luce assorbe)\nIl cervello riceve quindi una terna di informazioni\nSpettri diversi possono produrre la stessa percezione cromatica (metameri)\n\nQuindi mescolare tre componenti primarie (es. RGB) è sufficiente per rappresentare qualsiasi colore percepibile dall’occhio umano:\n\nUn’immagine RGB non descrive lo spettro\nDescrive come l’immagine stimola l’occhio umano\n\n\n\n\n\n\n\nPiù di tre coni?\n\n\nAlcune specie animali hanno più di tre coni: la maggior parte degli uccelli ha anche un tipo di cono per UV; i pesci fino a 7, i crostacei fino a 16"
+  },
+  {
+    "objectID": "presentations/colore.html#il-colore-come-sottrazione-di-componenti",
+    "href": "presentations/colore.html#il-colore-come-sottrazione-di-componenti",
+    "title": "L’immagine fotografica",
+    "section": "Il colore come sottrazione di componenti",
+    "text": "Il colore come sottrazione di componenti\n\n\n\nNella pittura (e nella stampa) i pigmenti assorbono componenti dello spettro:\n\nnessun pigmento = nero\ntutti i pigmenti = bianco\n\nSi usano tre primari (rosso-giallo-blu RBY, oppure ciano-magenta-giallo CYMK)\nI colori secondari sono quelli opposti ai primari\nI colori terziari sono i restanti\nI colori complementari sono quelli opposti\n\n\n\n\n\nRBY"
+  },
+  {
+    "objectID": "presentations/colore.html#il-colore-come-somma-di-componenti",
+    "href": "presentations/colore.html#il-colore-come-somma-di-componenti",
+    "title": "L’immagine fotografica",
+    "section": "Il colore come somma di componenti",
+    "text": "Il colore come somma di componenti\n\n\n\nNei supporti digitali (display) i pixel emettono componenti dello spettro:\n\nnessun pigmento = nero\ntutti i pigmenti = bianco\n\nSi usano tre primari (rosso-verde-blu, RGB)\nI colori secondari sono quelli opposti ai primari\nI colori terziari sono i restanti\nI colori complementari sono quelli opposti\n\n\n\n\n\nRGB"
+  },
+  {
+    "objectID": "presentations/colore.html#gli-spazi-colore",
+    "href": "presentations/colore.html#gli-spazi-colore",
+    "title": "L’immagine fotografica",
+    "section": "Gli spazi-colore",
+    "text": "Gli spazi-colore\nOK, servono e bastano tre componenti. Ma come misuriamo e rappresentiamo le relative intensità?\n\nServe un accordo su che valori numerici dare alle componenti del colore (matematica 😱)\nLa scelta è puramente arbitraria: per semplicità, si assume che ogni componente possa assumere valori da 0 a 1\nNel 1931 la Commission Internationale de l’Eclairage (CIE) definì uno spazio 3-D di colore che comprendeva tutte le tinte visibili dall’occhio umano, con coordinate \\(X, Y, Z\\)\nNel cubo di lato 1 in questo spazio ci sono tutte le tinte visibili, dal nero assoluto \\(&lt;0,0,0&gt;\\) al bianco assoluto \\(&lt;1,1,1&gt;\\)\nMa uno spazio 3-D è scomodo da visualizzare: come possiamo semplificare?\nSi normalizza la luminanza (cioè la componente di luminosità)"
+  },
+  {
+    "objectID": "presentations/colore.html#lo-spazio-colore-cie",
+    "href": "presentations/colore.html#lo-spazio-colore-cie",
+    "title": "L’immagine fotografica",
+    "section": "Lo spazio-colore CIE",
+    "text": "Lo spazio-colore CIE\n\n\nLo spazio colore CIE rappresenta cioè le intensità di tre componenti estreme corrispondenti a:\n\n\\(X\\): rosso-viola ipersaturo, con due lunghezze d’onda a 450 nm e 600 nm\n\\(Y\\): verde ipersaturo, a 520 nm\n\\(Z\\): blu ipersaturo, a 477 nm\n\nPer rappresentarli su un piano 2-D si può usare la sezione del cubo con intensità complessiva uniforme e uguale a 1\n\n\n\n\nSpazio colore CIE"
+  },
+  {
+    "objectID": "presentations/colore.html#gli-spazi-colore-come-sottoinsieme-del-cie",
+    "href": "presentations/colore.html#gli-spazi-colore-come-sottoinsieme-del-cie",
+    "title": "L’immagine fotografica",
+    "section": "Gli spazi colore come sottoinsieme del CIE",
+    "text": "Gli spazi colore come sottoinsieme del CIE\n\n\n\n\n\n\n\n\nImportante\n\n\nNon tutto lo spazio CIE è comunque percepibile: sul contorno della sezione si riportano i limiti percettivi con le rispettive lunghezze d’onda\n\n\n\n\nDiversi dispositivi digitali (sia di cattura che di riproduzione) generalmente non coprono l’intero spettro visibile, ma solo un sottoinsieme\nEsistono spazi-colore standard adatti a diversi dispositivi\nAd es. lo spazio sRGB è stato il riferimento per i display fino all’avvento di display ad alta dinamica nel decennio attuale\n\n\n\n\n\nCIE-1931 e altri spazi-colore"
+  },
+  {
+    "objectID": "presentations/colore.html#gli-spazi-colore-come-sottoinsieme-del-cie-1",
+    "href": "presentations/colore.html#gli-spazi-colore-come-sottoinsieme-del-cie-1",
+    "title": "L’immagine fotografica",
+    "section": "Gli spazi colore come sottoinsieme del CIE",
+    "text": "Gli spazi colore come sottoinsieme del CIE\n\n\n\nIl punto marcato D65 è detto illuminante CIE e corrisponde al bianco percepito dalla radiazione riflessa da una superficie bianca illuminata da luce diurna media\nIl contorno a campana riporta i colori spettrali (dall’indaco al rosso)\nIl segmento in basso riporta i colori non-spettrali (porpore)\nTutti i colori sul piano CIE hanno la stessa luminanza, mentre la saturazione cresce da D65 verso il bordo\nQuindi posso rappresentare lo stesso spazio colore anche come hue, saturation, luminance (HSL), cioè tinta, saturazione e luminanza\n\n\n\n\n\n\n\nAvviso\n\n\nConvertire tra spazi colore può comportare modifica percettiva sostanziale di una immagine!\n\n\n\n\n\n\n\nCIE-1931 e altri spazi-colore"
+  },
+  {
+    "objectID": "presentations/colore.html#leffetto-degli-spazi-colore",
+    "href": "presentations/colore.html#leffetto-degli-spazi-colore",
+    "title": "L’immagine fotografica",
+    "section": "L’effetto degli spazi colore",
+    "text": "L’effetto degli spazi colore\n\nLo spazio colore adottato è scritto nei metadati di una immagine\nIl sistema di visualizzazione (display o stampa) può gestire lo spazio colore (color-management) oppure no\nColor management significa che il dispositivo trasforma i colori estendendoli o comprimendoli allo spazio-colore di destinazione (gamut)\nA seconda del profilo colore adottato da sorgente e destinazione e del fatto che il dispositivo di uscita supporti il color management possono aversi diverse situazioni"
+  },
+  {
+    "objectID": "presentations/colore.html#senza-color-management",
+    "href": "presentations/colore.html#senza-color-management",
+    "title": "L’immagine fotografica",
+    "section": "Senza color-management",
+    "text": "Senza color-management\nQuesto avviene soprattutto su dispositivi e software che gestiscono solo sRGB, come browser antiquati o semplificati per dispositivi minimali\n\n\nAdobe RGB  sRGB\n\nSi ha una compressione dello spazio colore\nL’immagine risulta piatta\nIn particolare, i verdi e (un po’ meno) i rossi sono spenti\nSi guadagna una dominante magenta\n\n\nsRGB  Adobe RGB (o P3)\n\nSi ottiene una immagine con colori generalmente troppo saturi\nSi nota soprattutto nei verdi, che diventano radioattivi\nSi guadagna una dominante verde\nLe variazioni di colore sono meno dolci"
+  },
+  {
+    "objectID": "presentations/colore.html#con-color-management",
+    "href": "presentations/colore.html#con-color-management",
+    "title": "L’immagine fotografica",
+    "section": "Con color-management",
+    "text": "Con color-management\nIl software/dispositivo legge il profilo colore nell’immagine e riproietta i colori nello spazio più piccolo (gamut ridotto)\n\n\nAdobe RGB  sRGB\n\nI colori sono corretti\nSi perde però in vivacità percettiva (perché il dispositivo non è in gradi di visualizzare i colori più saturi)\nLa differenza si percepisce maggiormente nei verdi\n\n\nsRGB  Adobe RGB (o P3)\n\nI colori sono percettivamente identici a quelli visualizzati su un display Adobe RGB\nTutavia non si sfrutta la capacità di stimolo visivo del display"
+  },
+  {
+    "objectID": "presentations/colore.html#in-conclusione",
+    "href": "presentations/colore.html#in-conclusione",
+    "title": "L’immagine fotografica",
+    "section": "In conclusione",
+    "text": "In conclusione\n\nOggi la maggior parte dei dispositivi è in grado di gestire il colore\nConviene impostare la camera in modo da creare file in formato Adobe RGB\nIn questo modo si possono sfruttare al meglio dispositivi e software moderni\nIn Lightroom, in modalità Sviluppo abilitare Prova Colore e poi scegliere il profilo/spazio di destinazione (in alto a destra, sotto l’istogramma)\nLa simulazione funziona bene se si usa un display con gamut ampio (P3 o Adobe RGB) e si vuole verificare un gamut più ridotto (ad esempio per la stampa)"
+  },
+  {
+    "objectID": "presentations/colore.html#impostare-il-profilo-colore-in-camera",
+    "href": "presentations/colore.html#impostare-il-profilo-colore-in-camera",
+    "title": "L’immagine fotografica",
+    "section": "Impostare il profilo colore in camera",
+    "text": "Impostare il profilo colore in camera\nLa maggior parte delle camere consente di scegliere lo spazio colore (sRGB o Adobe RGB):\n\nSe si scatta in JPG, la scelta cambia la qualità dell’immagine a seconda del dispositivo di destinazione (vedi sopra)\nSe si scatta in RAW, il contenuto dell’immagine non cambia, tuttavia:\n\nil profilo viene salvato nei metadati e usato dal software di sviluppo\nil profilo viene utilizzato per la generazione dell’anteprima JPG\nil profilo viene utilizzato per la visualizzazione dell’istogramma\n\nQuindi, scegliere Adobe RGB in generale dà meno clipping delle saturazioni, ed è più utile per anticipare cosa è possibile ottenere dal RAW"
+  },
+  {
+    "objectID": "presentations/colore.html#comè-fatto-un-sensore-cmos",
+    "href": "presentations/colore.html#comè-fatto-un-sensore-cmos",
+    "title": "L’immagine fotografica",
+    "section": "Com’è fatto un sensore (CMOS)",
+    "text": "Com’è fatto un sensore (CMOS)\n\n\nFotositi\n\n\n\n\nFotosito CMOS"
+  },
+  {
+    "objectID": "presentations/colore.html#comè-fatto-un-sensore-cmos-1",
+    "href": "presentations/colore.html#comè-fatto-un-sensore-cmos-1",
+    "title": "L’immagine fotografica",
+    "section": "Com’è fatto un sensore (CMOS)",
+    "text": "Com’è fatto un sensore (CMOS)\n\n\nColor Filter Array\n\n\n\n\nCFA"
+  },
+  {
+    "objectID": "presentations/colore.html#color-filter-array-cfa",
+    "href": "presentations/colore.html#color-filter-array-cfa",
+    "title": "L’immagine fotografica",
+    "section": "Color Filter Array (CFA)",
+    "text": "Color Filter Array (CFA)\n\n\nBayer o X-Trans\n\n\n\n\nCFA Bayer (sx) e X-Trans (dx)"
+  },
+  {
+    "objectID": "presentations/colore.html#interpolazione-o-sviluppo-raw",
+    "href": "presentations/colore.html#interpolazione-o-sviluppo-raw",
+    "title": "L’immagine fotografica",
+    "section": "Interpolazione, o “sviluppo RAW”",
+    "text": "Interpolazione, o “sviluppo RAW”\n\n\nleft"
+  },
+  {
+    "objectID": "presentations/colore.html#profindità-di-colore-bit",
+    "href": "presentations/colore.html#profindità-di-colore-bit",
+    "title": "L’immagine fotografica",
+    "section": "Profindità di colore (bit)",
+    "text": "Profindità di colore (bit)"
+  },
+  {
+    "objectID": "presentations/colore.html#gamma-dinamica",
+    "href": "presentations/colore.html#gamma-dinamica",
+    "title": "L’immagine fotografica",
+    "section": "Gamma dinamica",
+    "text": "Gamma dinamica"
+  },
+  {
+    "objectID": "presentations/colore.html#iso-e-sensibilità",
+    "href": "presentations/colore.html#iso-e-sensibilità",
+    "title": "L’immagine fotografica",
+    "section": "ISO e sensibilità",
+    "text": "ISO e sensibilità"
+  },
+  {
+    "objectID": "presentations/colore.html#formati-raw",
+    "href": "presentations/colore.html#formati-raw",
+    "title": "L’immagine fotografica",
+    "section": "Formati RAW",
+    "text": "Formati RAW"
+  },
+  {
+    "objectID": "presentations/colore.html#formati-di-output-jpg",
+    "href": "presentations/colore.html#formati-di-output-jpg",
+    "title": "L’immagine fotografica",
+    "section": "Formati di output: JPG",
+    "text": "Formati di output: JPG"
+  },
+  {
+    "objectID": "presentations/colore.html#formati-di-output-png",
+    "href": "presentations/colore.html#formati-di-output-png",
+    "title": "L’immagine fotografica",
+    "section": "Formati di output: PNG",
+    "text": "Formati di output: PNG"
+  },
+  {
+    "objectID": "presentations/colore.html#formati-di-output-tiff",
+    "href": "presentations/colore.html#formati-di-output-tiff",
+    "title": "L’immagine fotografica",
+    "section": "Formati di output: TIFF",
+    "text": "Formati di output: TIFF"
+  },
+  {
+    "objectID": "presentations/colore.html#bilanciamento-del-bianco-idea-chiave",
+    "href": "presentations/colore.html#bilanciamento-del-bianco-idea-chiave",
+    "title": "L’immagine fotografica",
+    "section": "Bilanciamento del bianco: idea chiave",
+    "text": "Bilanciamento del bianco: idea chiave\n\n\n\nIl cervello umano compensa automaticamente la temperatura della luce\nIl sensore non lo fa\nIl bilanciamento del bianco è una correzione moltiplicativa dei canali\n\n➡️ Serve a ristabilire una risposta neutra ai grigi"
+  },
+  {
+    "objectID": "presentations/colore.html#bilanciamento-del-bianco-punto-critico",
+    "href": "presentations/colore.html#bilanciamento-del-bianco-punto-critico",
+    "title": "L’immagine fotografica",
+    "section": "Bilanciamento del bianco: punto critico",
+    "text": "Bilanciamento del bianco: punto critico\n\nIl WB non è una correzione estetica, ma percettiva\nVa fatto prima di contrasto e saturazione\nUn WB errato distorce:\n\nistogrammi RGB\nseparazione cromatica\nconversioni di spazio colore"
+  },
+  {
+    "objectID": "presentations/colore.html#profili-icc-perché-sono-necessari",
+    "href": "presentations/colore.html#profili-icc-perché-sono-necessari",
+    "title": "L’immagine fotografica",
+    "section": "Profili ICC: perché sono necessari",
+    "text": "Profili ICC: perché sono necessari\n\n\n\nI numeri RGB non hanno significato assoluto\nUn profilo ICC dice:\n\nche colore reale corrisponde a quei numeri\ncome convertire correttamente tra dispositivi\n\n\n📌 Senza profilo ICC → i colori sono ambigui\n\n\n# A tibble: 3 × 2\n  channel mean_value\n  &lt;chr&gt;        &lt;dbl&gt;\n1 B            0.494\n2 G            0.527\n3 R            0.506\n\n\n➡️ Stessi numeri RGB, profili diversi → colori diversi\n\n{width=100%}\nPipeline colore semplificata con profili ICC\n\n\nI numeri RGB non hanno significato assoluto\nUn profilo ICC dice:\n\nche colore reale corrisponde a quei numeri\ncome convertire correttamente tra dispositivi\n\n\n📌 Senza profilo ICC → i colori sono ambigui"
+  },
+  {
+    "objectID": "presentations/colore.html#catena-del-colore-semplificata",
+    "href": "presentations/colore.html#catena-del-colore-semplificata",
+    "title": "L’immagine fotografica",
+    "section": "Catena del colore (semplificata)",
+    "text": "Catena del colore (semplificata)\n\nSensore (risposta spettrale propria)\nProfilo camera\nSpazio di lavoro (es. ProPhoto)\nEditing\nConversione verso output (monitor / stampa)\n\n➡️ Ogni passaggio è una trasformazione di coordinate"
+  },
+  {
+    "objectID": "presentations/colore.html#cosè-il-gamut",
+    "href": "presentations/colore.html#cosè-il-gamut",
+    "title": "L’immagine fotografica",
+    "section": "Cos’è il gamut",
+    "text": "Cos’è il gamut\n\nIl gamut è l’insieme dei colori rappresentabili\nDipende dal dispositivo o dallo spazio colore\nNon tutti i colori percepibili sono rappresentabili\n\nEsempio:\n\nsRGB ⊂ AdobeRGB ⊂ ProPhotoRGB"
+  },
+  {
+    "objectID": "presentations/colore.html#gamut-e-postproduzione",
+    "href": "presentations/colore.html#gamut-e-postproduzione",
+    "title": "L’immagine fotografica",
+    "section": "Gamut e postproduzione",
+    "text": "Gamut e postproduzione\n\n\n\nAumentare saturazione ≠ aumentare gamut\nI colori fuori gamut vengono:\n\ncompressi\ntagliati (clipping)\n\n\n📌 Problema tipico: colori vividi a monitor → spenti in stampa\n\n{width=100%}\nConfronto concettuale tra gamut (sRGB vs AdobeRGB)\n\n\nAumentare saturazione ≠ aumentare gamut\nI colori fuori gamut vengono:\n\ncompressi\ntagliati (clipping)\ndeformati\n\n\n📌 Problema tipico: colori vividi a monitor → spenti in stampa"
+  },
+  {
+    "objectID": "presentations/colore.html#visualizzare-il-gamut-idea",
+    "href": "presentations/colore.html#visualizzare-il-gamut-idea",
+    "title": "L’immagine fotografica",
+    "section": "Visualizzare il gamut (idea)",
+    "text": "Visualizzare il gamut (idea)\n\n\n\nLightroom lavora sempre in uno spazio interno molto ampio (simile a ProPhoto)\nIl problema del gamut emerge:\n\nin soft proofing\nin export\n\nIl diagramma CIE xy serve a capire, non a lavorare\n\n\n\n\n\n\n\n\n\n\n\n\nIn Lightroom non vediamo il gamut, ma ne subiamo gli effetti in output\n\n\nAvvisi di gamut in soft proof\nColori saturi che collassano\nPerdita di separazione cromatica\n\n\n\nIl diagramma CIE xy mostra:\n\ncolori percepibili\ncontorni dei gamut\n\nUtile concettualmente, non operativo\n\n\nIn pratica lavoriamo sempre in RGB"
+  },
+  {
+    "objectID": "presentations/colore.html#lightroom-perché-uno-spazio-interno-ampio",
+    "href": "presentations/colore.html#lightroom-perché-uno-spazio-interno-ampio",
+    "title": "L’immagine fotografica",
+    "section": "Lightroom: perché uno spazio interno ampio",
+    "text": "Lightroom: perché uno spazio interno ampio\n\n\n\nLightroom usa un RGB molto esteso (simile a ProPhoto)\nServe a:\n\nevitare clipping durante editing\npreservare saturazioni elevate\n\nL’utente non sceglie questo spazio\n\n📌 Il problema nasce solo in export\n\n\n\n\n\n\n\n\n\n\n\nIn Develop: tutto sembra “ok”\nIn Export sRGB:\n\ncompressione\nclipping\n\n\n\nLightroom protegge l’editing, non l’output finale\n\n\n\nGamut molto ampio\nRiduce il rischio di clipping in editing\nRichiede profondità elevata (16 bit)\n\n⚠️ Con 8 bit → posterizzazione"
+  },
+  {
+    "objectID": "presentations/colore.html#messaggi-chiave-da-portare-a-casa",
+    "href": "presentations/colore.html#messaggi-chiave-da-portare-a-casa",
+    "title": "L’immagine fotografica",
+    "section": "Messaggi chiave da portare a casa",
+    "text": "Messaggi chiave da portare a casa\n\nIl colore è una costruzione percettiva\nRGB funziona perché l’occhio è tricromatico\nWB e profili ICC sono fondamentali, non opzionali\nIl gamut è un vincolo fisico, non un’opinione"
+  },
+  {
+    "objectID": "presentations/colore.html#esercitazione-guidata-lightroom-centric",
+    "href": "presentations/colore.html#esercitazione-guidata-lightroom-centric",
+    "title": "L’immagine fotografica",
+    "section": "Esercitazione guidata (Lightroom-centric)",
+    "text": "Esercitazione guidata (Lightroom-centric)\n\n\nStesso file RAW\n\nWB automatico\nWB manuale (pipetta su grigio)\nSaturazione + Vibrance\n\n\n\n\n\n\n\n\n\n\nDomanda chiave:\n\ncosa è cambiato nei numeri, non nell’immagine?\n\n\n\nWB → riallinea i canali\nSaturazione → aumenta separazione\nExport → applica i vincoli del gamut\n\n📌 Lightroom è non distruttivo, ma non è neutro\n\n\nStessa immagine RAW\nWB diverso\nSpazio colore diverso\nAnalisi istogrammi RGB\n\n➡️ Osservare cosa cambia numericamente, non solo visivamente"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Materiale corsi di fotografia digitale e post-produzione",
+    "section": "",
+    "text": "Autore\nPaolo Bosetti, Witness Journal\n\n\nDate\nNovembre 2025\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Materiale corsi di fotografia digitale e post-produzione",
+    "section": "",
+    "text": "Questo mini-sito raccoglie il materiale di studio per i corsi di fotografia digitale e post-produzione organizzati da Witness Journal.\nIl materiale è organizzato in presentazioni interattive online. Le presentazioni sono navigabili da browser: premendo il tasto [?] viene visualizzato l’elenco delle scorciatoie da tastiera.\nIl sito è ricercabile: la lente di ingrandimento  in alto a destra si accede allo strumento di ricerca che consulta anche le singole presentazioni.\n\n\n\n Torna in cima"
+  }
+]

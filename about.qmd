@@ -1,20 +1,20 @@
 ---
-title: Ottimizzazione dei processi produttivi
-subtitle: Corso di perfezionamento
+title: Materiale corsi di fotografia digitale e post-produzione
+subtitle: Witness Journal
 format: html
 about:
   template: trestles
   links:
     - icon: github
       text: GitHub
-      href: https://github.com/OptPar
+      href: https://witnessjournal.github.io/ImmagineDigitale
     - text: "![](https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png)"
       href: https://creativecommons.org/licenses/by-sa/4.0/
 ---
 
 # Autore
 
-**Paolo Bosetti**, Università di Trento
+**Paolo Bosetti**, Witness Journal
 
 # Date
 

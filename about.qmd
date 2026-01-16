@@ -1,0 +1,22 @@
+---
+title: Ottimizzazione dei processi produttivi
+subtitle: Corso di perfezionamento
+format: html
+about:
+  template: trestles
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/OptPar
+    - text: "![](https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png)"
+      href: https://creativecommons.org/licenses/by-sa/4.0/
+---
+
+# Autore
+
+**Paolo Bosetti**, Università di Trento
+
+# Date
+
+Novembre 2025
+

@@ -1,0 +1,15 @@
+---
+title: Materiale corsi di fotografia digitale e post-produzione
+author: Paolo Bosetti
+affiliation: Witness Journal
+date: 16/01/2026
+date-modified: today
+lang: it
+format: html
+---
+
+Questo mini-sito raccoglie il materiale di studio per i corsi di fotografia digitale e post-produzione organizzati da [Witness Journal](https://witnessjournal.com){target="wj"}.
+
+Il materiale è organizzato in **presentazioni interattive online**. Le presentazioni sono navigabili da browser: premendo il tasto `[?]` viene visualizzato l'elenco delle scorciatoie da tastiera.
+
+Il sito è **ricercabile**: la lente di ingrandimento {{< bi search >}} in alto a destra si accede allo strumento di ricerca che consulta anche le singole presentazioni.

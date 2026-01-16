@@ -1,0 +1,97 @@
+---
+title: "L'immagine fotografica"
+subtitle: "Introduzione al corso"
+author: "Paolo Bosetti"
+institute: "Witness Journal"
+date: 2025-11-03
+date-modified: today
+date-format: "DD MMMM YYYY"
+lang: it
+draft: false
+categories: [intro, meeting]
+format: revealjs
+---
+
+```{r setup}
+knitr::opts_chunk$set(
+	echo = FALSE,
+	message = FALSE,
+	warning = FALSE
+)
+library(tidyverse)
+library(imager)
+library(zoo)
+```
+
+## Contenuti del corso
+
+
+## Immagini
+
+```{r}
+h=200
+plot(boats)
+abline(h=h, lty=2)
+```
+
+
+
+
+##
+
+```{r}
+line <- boats[,h,1,] %>% 
+  as_tibble(.name_repair = ~c("R","G","B")) %>% 
+  mutate(w=1:n(), .before=R) %>% 
+  mutate(across(R:B, ~ scales::rescale(., c(0,255), c(0,1)) %>% round()))
+data <- line %>% 
+  pivot_longer(-w, names_to = "Color", values_to = "Intensity")
+
+p <- data %>% 
+  ggplot(aes(x=w, y=Intensity, fill=Color, group=Color)) + 
+  geom_hline(yintercept=c(0,255), linetype=2) +
+  scale_fill_discrete(palette=c("blue", "green", "red"))
+p + geom_col(position="dodge") + coord_cartesian(ylim=c(0, 256)) 
+```
+
+
+```{r}
+p + geom_col(position="dodge") + 
+  coord_cartesian(xlim=c(0,9) + 100, ylim=c(0, 256))
+  # coord_cartesian(ylim=c(0, 256))
+```
+
+```{r}
+#| warning: false
+raw <- line %>% 
+  mutate(
+    R = ifelse(row_number() %% 3 == 1, R, NA),
+    G = ifelse(row_number() %% 3 == 2, G, NA),
+    B = ifelse(row_number() %% 3 == 0, B, NA)
+  ) 
+
+raw_p <- raw %>% 
+  mutate(
+    R = na.approx(R) %>% round(),
+    G = c(NA, na.approx(G) %>% round(), NA, NA),
+    B = c(NA, NA, na.approx(B) %>% round(), NA)
+  ) %>% 
+  pivot_longer(-w, names_to = "Color", values_to = "Intensity")
+
+ggplot() + 
+  geom_line(aes(x=w, y=Intensity, color=Color, group=Color), raw_p) +
+  geom_point(aes(x=w, y=value, color=name), pivot_longer(raw, -w)) +
+  coord_cartesian(xlim=c(0,9) + 100, ylim=c(0, 256))
+```
+
+```{r}
+ggplot() + 
+  geom_hline(yintercept=c(0, 255), linetype=2) +
+  geom_col(aes(x=w, y=Intensity, fill=Color, group=Color), data, position="dodge") + 
+  geom_line(aes(x=w, y=Intensity, color=Color, group=Color), raw_p) +
+  geom_point(aes(x=w, y=value, fill=name), pivot_longer(raw, -w), size=4, stroke=1.5, shape=21, color=grey(1)) +
+  scale_fill_discrete(palette=c("blue", "green", "red")) +
+  scale_color_discrete(palette=c("blue", "green", "red")) +
+  coord_cartesian(xlim=c(0,9) + 100, ylim=c(0, 256))
+```
+
